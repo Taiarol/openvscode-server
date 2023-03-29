@@ -1,0 +1,4 @@
+image: "public.ecr.aws/aws-mde/universal-image:latest"
+tasks:
+  - name: Setup & Build
+    init: yarn install
